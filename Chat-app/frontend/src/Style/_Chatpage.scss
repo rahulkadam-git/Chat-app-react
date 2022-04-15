@@ -1,0 +1,21 @@
+.main-box{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    padding: 10px;
+    background-color: rgb(253, 253, 253);
+}
+
+.chatPage{
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (max-width:800px) {
+
+    .slide{
+       float: left;
+       
+    }
+    
+}

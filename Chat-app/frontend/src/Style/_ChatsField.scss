@@ -1,0 +1,32 @@
+.ChatsFeild {
+  background-color: rgb(252, 247, 240);
+  height: 70vh;
+  }
+
+.new-chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+.chat-lists {
+  border-radius: 10px;
+}
+
+.user-chat {
+  background-color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 1px 0;
+  text-transform: capitalize;
+}
+.user-chat:hover {
+  background-color: lightblue;
+}
+
+.UsersList{
+  display: flex;
+  align-items: center;
+
+}

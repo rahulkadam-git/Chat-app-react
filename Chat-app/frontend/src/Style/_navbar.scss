@@ -1,0 +1,80 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  padding: 0 15px;
+  background-color: white;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 5px 5px -5px #333;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bolder;
+  padding: 10px 0 0 10px;
+}
+
+.notifications {
+  position: absolute;
+  padding: 5px;
+  font-size: 14px;
+  bottom: -10px;
+  left: 50%;
+}
+
+.notifications-list {
+  margin: 5px 8px;
+  padding: 5px 8px;
+  background-color: cornsilk;
+  border-radius: 5px;
+}
+
+.logout {
+  margin-left: 10px;
+}
+
+.userprofile-btn {
+  display: flex;
+  align-items: center;
+}
+
+.userprofile-btn .profile_pic img {
+  width: 30px;
+  height: 30px;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
+
+.notify-indicator {
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.notify-indicator {
+  margin: auto;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+
+
+ 
+}
+
+
+
+.menu-bars{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 800px) {
+  .profileDetails {
+    display: none;
+  }
+}

@@ -1,0 +1,37 @@
+.register {
+
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  background-color: rgba(85, 68, 68, 0.15);
+}
+
+.password-input {
+  display: flex;
+}
+
+.showpass {
+  padding: 0 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+}
+
+
+.fullname{
+  display: flex;
+}
+
+.fullname .name,.surname{
+padding: 0 10px;
+}
+
+.name input{
+  width: 10rem;
+}
+.surname input{
+  width: 10rem;
+}

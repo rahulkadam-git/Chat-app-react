@@ -1,0 +1,66 @@
+.homepage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+
+}
+.forms {
+  padding-top: 1rem;
+  width: 50%;
+  position: relative;
+}
+
+.select-tab {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  padding-top: 1rem;
+}
+
+.homepage-cover {
+  position: relative;
+  width: 50%;
+}
+.side-content {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.side-content h3 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.side-content h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.side-content h5 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+}
+
+@media screen and (max-width: 800px) {
+  .homepage {
+    display: block;
+  }
+
+  .side-content {
+    display: none;
+  }
+
+  .homepage .forms {
+    background-color: blue;
+    width: 100%;
+  }
+}

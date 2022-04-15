@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxx;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fredoka&display=swap");
+
+.App {
+  min-height: 100vh;
+  background: url(./imgs/lGdYRW.jpg)
+  
+  
+}
+
+@import url(./Style/_login.scss);
+@import url(./Style/_register.scss);
+@import url(./Style/_Homepage.scss);
+@import url(./Style/_Chatpage.scss);
+@import url(./Style//_SideDrawer.scss);
+@import url(./Style/_navbar.scss);
+@import url(./Style//_UserListItems.scss);
+@import url(./Style/_ChatsField.scss);
+@import url(./Style/_Chatbox.scss);
+@import url(./Style/_Mychat.scss);
+@import url(./Style//_UserBadgeItem.scss);
+@import url(./Style/_newchat.scss);
+@import url(./Style/_UpdateGroup.scss);
